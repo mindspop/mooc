@@ -1,0 +1,51 @@
+{
+  "name": "mooc",
+  "version": "1.1.0",
+  "description": "A simple API Mock Server",
+  "scripts": {
+    "start": "npm run gulp",
+    "mock": "gulp mock",
+    "render": "gulp render",
+    "clean": "gulp clean",
+    "gulp": "gulp"
+  },
+  "bin": {
+    "mooc": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mindspop/prometheus"
+  },
+  "keywords": [
+    "mock",
+    "server",
+    "api",
+    "doc",
+    "render",
+    "watch",
+    "http"
+  ],
+  "author": "Mindspop <mindspop@gmail.com>",
+  "contributors": [
+    {
+      "name": "ryanyu104"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "aglio": "2.2.1",
+    "colors": "1.1.2",
+    "commander": "2.9.0",
+    "config": "1.25.1",
+    "del": "2.2.2",
+    "drakov": "1.0.1",
+    "express": "4.14.0",
+    "glob": "7.1.1",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-aglio": "0.0.10",
+    "gulp-cli": "1.2.2",
+    "js-yaml": "3.7.0",
+    "restc": "0.0.4",
+    "shelljs": "0.7.6"
+  }
+}
