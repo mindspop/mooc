@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mindspop/prometheus"
+    "url": "https://github.com/mindspop/moock"
   },
   "keywords": [
     "mock",
