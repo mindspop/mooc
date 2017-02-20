@@ -8,7 +8,7 @@ base:
 renderOptions:
   base: 'api/**/*.md'
   dest: 'html/' # 渲染后文件存放目
-  themeTemplate: 'default'
+  theme: 'default'
   # ... 其它配置参考
   # https://github.com/danielgtaylor/aglio#agliorender-blueprint-options-callback
 

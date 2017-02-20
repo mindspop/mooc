@@ -5,7 +5,7 @@ const options = require('./config').get('renderOptions')
 
 function render(pattern) {
   return function renderAPI(done) {
-    return gulp.src(pattern, { base: options.base })
+    return gulp.src(pattern)
       .pipe(aglio(options))
       .pipe(gulp.dest(options.dest))
   }
