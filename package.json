@@ -1,6 +1,6 @@
 {
   "name": "mooc",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple API Mock Server",
   "scripts": {
     "start": "npm run gulp",
