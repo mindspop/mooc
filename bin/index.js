@@ -8,8 +8,9 @@ const shell = require('shelljs')
 const pkg = require('../package.json')
 const gulp = path.join(__dirname, '../node_modules/.bin/gulp')
 const gulpfile = path.join(__dirname, '../gulpfile.js')
+const cwd = process.cwd()
 
-const gulpCommand = `${gulp} --color --gulpfile ${gulpfile}`
+const gulpCommand = `${gulp} --cwd ${cwd} --color --gulpfile ${gulpfile}`
 
 program
   .version(pkg.version)

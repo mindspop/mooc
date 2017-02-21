@@ -1,6 +1,6 @@
 const express = require('express')
 const path = require('path')
-const restc = require('restc')
+// const restc = require('restc')
 require('colors')
 
 const drakovPath = '../node_modules/drakov/lib'
@@ -23,7 +23,8 @@ exports.run = function(argv, cb) {
   // TODO configurable
   app.use(requestUtils.logger)
   app.use(requestUtils.getBody)
-  app.use('/api', restc.express())
+  // 先禁用
+  // app.use('/api', restc.express())
 
   // SETUP RESPONSE MIDDLEWARE
   argv.drakovHeader = true
